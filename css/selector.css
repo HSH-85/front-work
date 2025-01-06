@@ -1,0 +1,27 @@
+li{
+  color:red
+}
+.orange{
+color: orange;
+}
+
+.fruite{
+  font-size: 20px;
+  color:blue
+}
+
+#graph{
+  color : green
+}
+
+div.orange{
+  color: brown;
+}
+
+a:hover{
+  color : red
+}
+
+a:active{
+  color : blue
+}
