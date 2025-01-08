@@ -1,0 +1,128 @@
+div {
+  box-sizing: border-box;
+}
+
+.main-background {
+  padding: 1px;
+  background-image: url('../img/shoes_background.jpg');
+  width: 100%;
+  height: 500px;
+  /*
+  * cover : 잘려도 되니까 꽉 채워주세요
+  * contain : 여백 남아도 좋으니 배경 자르지 마세요
+   */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.main-content {
+  /* 글씨 색상 흰색 */
+  color: white;
+  /* 왼쪽-오른쪽 마진 20px */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-button {
+  /* 글씨 크기 : 20px 
+     버튼 배경 색 : 흰색
+     테두리 없음
+     테두리 굽은 정도 5px
+     글씨와 버튼 바깥 경계의 거리 : 15px
+  */
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+
+  /*position : 공중에 붕 떠요....(float 처럼)
+  * position : relative - 나의 원래 위치를 기준으로 이동
+  * position : static - 좌표 이동 X, 고정.. 스크롤되도 고정
+  * position : fixed - 화면에 고정. 스크롤되면 따라다님
+  * position : absolute - 나의 부모 기준으로 움직임
+  *            단, 부모 중 relative 가 있는 곳이 기준
+  */
+  /* absolute 인 경우 가운데 정렬 */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  margin: auto;
+  width: 150px;
+}
+
+.main-button:hover {
+  color: red;
+}
+
+.explain-box {
+  position: relative;
+  background: #eee;
+  width: 400px;
+  min-width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  top: -50px;
+}
+
+.explain-box::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+.explain-box::first-line {
+  color: blue;
+}
+
+.form-background{
+  background-color: black;
+  padding : 30px
+}
+
+.form-white{
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+.form-input{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.w-100{
+  width: 100%;
+  padding :10px;
+}
+.w-50{
+  width: 50%;
+  padding :10px;
+  float: left;
+}
+
+/* 모든 버튼의 공통 속성 */
+.btn{
+  padding : 10px;
+  display: block;
+  margin-left: auto;
+}
+/* 해당 버튼만 갖는 속성 */
+.yellow-button{
+  background-color: yellow;
+}
