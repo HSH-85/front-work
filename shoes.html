@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/shoes.css" />
     <title>Document</title>
   </head>
@@ -10,7 +17,7 @@
     <div class="nav-container">
       <div class="nav-item">ShoesShop</div>
       <div class="nav-item">Product</div>
-      <div style="flex-grow: 1 ;"></div>
+      <div style="flex-grow: 1"></div>
       <div class="nav-item">Services</div>
     </div>
     <div class="main-background">
@@ -40,7 +47,7 @@
     </div>
 
     <!-- 미디어 쿼리를 활용한 가로정렬 연습-->
-     <div class="product-container">
+    <div class="product-container">
       <div>
         <h4>Fast Shipping</h4>
         <p>lorem ipsum</p>
@@ -56,40 +63,69 @@
       <div>
         <h4>Fast Shipping</h4>
         <p>lorem ipsum</p>
+      </div>
+      <div style="float: none; clear: both"></div>
+    </div>
+
+    <!-- fontawesome을 활용한 이미지 처리 -->
+    <div class="product-container">
+      <div>
+        <i class="fa-solid fa-cart-shopping fa-3x"></i>
+        <h4>Fast Shipping</h4>
+        <p>We Ship faster than other shops.</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-earth-asia fa-3x"></i>
+        <h4>Good Service</h4>
+        <p>Expect a life long Service.</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-user fa-3x"></i>
+        <h4>Free coupons</h4>
+        <p>With new welcome gifts</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-shirt fa-3x"></i>
+        <h4>New Products</h4>
+        <p>See monthly new products</p>
       </div>
       <div style="float: none; clear: both;"></div>
-     </div>
+    </div>
 
     <div class="form-background">
       <div class="form-white">
         <form action="" method="">
-            <div class="w-100">
-              <h3>Contact us</h3>
-              <p>Your Email</p>
-              <input type="email" class="form-input"
-                placeholder="Enter your email" name="email">
-            </div>
-            <div class="w-50">
-              <p>First Name</p>
-              <input type="text" class="form-input"
-              name="first-name">
-            </div>
-            <div class="w-50">
-              <p>Last Name</p>
-              <input type="text" class="form-input"
-              name="last name">
-            </div>
-            <div style="clear: both;"></div>
-            <div class="w-100">
-              <p>Message</p>
-              <textarea name="message" id=""
-              class="form-input"></textarea>
-            </div>
-            <div class="w-100">
-              <input type="checkbox" name="" id="sub" class="">
-              <label for="sub">Subscribe</label>
-               <input type="submit">
-            </div>
+          <div class="w-100">
+            <h3>Contact us</h3>
+            <p>Your Email</p>
+            <input
+              type="email"
+              class="form-input"
+              placeholder="Enter your email"
+              name="email"
+            />
+          </div>
+          <div class="w-50">
+            <p>First Name</p>
+            <input type="text" class="form-input" name="first-name" />
+          </div>
+          <div class="w-50">
+            <p>Last Name</p>
+            <input type="text" class="form-input" name="last name" />
+          </div>
+          <div style="clear: both"></div>
+          <div class="w-100">
+            <p>Message</p>
+            <textarea name="message" id="" class="form-input"></textarea>
+          </div>
+          <div class="w-100">
+            <input type="checkbox" name="" id="sub" class="" />
+            <label for="sub">Subscribe</label>
+            <input type="submit" />
+          </div>
         </form>
       </div>
     </div>

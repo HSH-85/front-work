@@ -152,6 +152,17 @@ div {
   text-align: center;
 }
 
+.product-container i{
+  background-color: burlywood;
+  height: 100px;
+  width: 100px;
+  padding-top: 25px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: white;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 1200px) {
   /*  화면의 크기가 1200px 이하일 때 */
   /* 태블릿 사이즈에서 적용할 css를 기술 */
