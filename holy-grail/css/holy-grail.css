@@ -36,6 +36,7 @@ footer{
 nav, aside{
   /* 플렉스에 너비를 부여 */
   flex-basis: 150px;
+  /* 주어진 너비가 줄어들 때 양보 안 함. */
   flex-shrink: 0;
 }
 
