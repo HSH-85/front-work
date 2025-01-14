@@ -163,6 +163,49 @@ div {
   box-sizing: border-box;
 }
 
+.shop-bg{
+  background-color: #eee;
+  padding: 20px;
+}
+
+.shop-container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.shop-item{
+  width: 33%;
+  padding: 10px;
+}
+
+.shop-item img{
+  width: 100%;
+  display: block;
+}
+
+/* 애니메이션 처리 */
+/* 1. 시작 스타일을 정하기 */
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  /* 애니메이션 속도 조절 */
+  transition: all 1s;
+}
+
+/* 2. 최종 스타일을 정하기 */
+/* 3. 언제 최종스타일로 변할지 정하기 (트리거) - hover*/
+.overlay:hover{
+  opacity: 1;
+}
+/* 4. transition 으로 서서히 동작하도록 만들기 */
+
+
+
 @media screen and (max-width: 1200px) {
   /*  화면의 크기가 1200px 이하일 때 */
   /* 태블릿 사이즈에서 적용할 css를 기술 */
