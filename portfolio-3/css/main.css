@@ -1,0 +1,49 @@
+.content{
+  margin-left: 50px;
+}
+
+.input-animation{
+  width: 200px;
+  transition: width 1s;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-animation:focus{
+  width: 400px;
+  }
+
+  .nav-link{
+    position: relative;
+  }
+
+  .nav-badge{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+  }
+
+.sidebar{
+  width: 150px;
+  /* vh :viewport height */
+  height: 100vh;
+  background-color: #484BB3;
+  position: fixed;
+  color: white;
+  transform: translateX(-100px);
+  z-index: 5 ;
+  transition: all 0.5s;
+}
+
+.sidebar:hover{
+  transform: translateX(0px);
+}
+
+.sidebar i{
+  transform: translateX(100px);
+  transition: all 0.5s;
+}
+
+.sidebar:hover i{
+  transform: translateX(0px);
+}
